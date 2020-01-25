@@ -1,0 +1,87 @@
+*{
+    MARGIN:0;
+    PADDING:0;
+}
+BODY{
+    font-family: Tahoma;
+}
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.main-nav{
+    float:right;
+    list-style: none;
+   
+}
+.main-nav li{
+    display: inline-block;
+    padding: 10px;
+    font-weight: bolder;
+ 
+    margin-left:20px;
+    margin-top:60px;
+}
+.main-nav li a{
+    text-decoration: none;
+    display:block;
+    font-size: 90%;
+    color:white;
+}
+.main-nav li a:hover{
+    color:orange;
+    border-bottom: 2px solid orange;
+    transition:all 0.5s ease-in;
+}
+.logo {
+    
+    float:left;
+    margin-top: 15px;
+}
+.logo img{
+   width:50%;
+   border: 2px white solid;
+   border-radius: 50%;
+   margin-left: 20px;
+   margin-top: 20px;
+  
+}
+.hero{
+    position:absolute;
+    width:940px;
+    top :50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+header{
+    background-image:linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7)), url(./images/hermes.jpg);
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+  
+}
+h1{
+    color:white;
+}
+.btn{
+    border:1px solid orange;
+    padding:10px 30px;
+    color:orange;
+    text-decoration: none;
+    border-radius: 12px;
+    margin-right: 15px;
+}
+.btn-awsome{
+    margin-top: 40px;
+    font-weight: bolder;
+}
+.btn-full{
+background-color: orange;
+color:white;
+
+}
+.btn-half:hover{
+    background-color: orange;
+color:white;
+transition: all 0.5s ease-in;
+}
